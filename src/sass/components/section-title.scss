@@ -1,0 +1,23 @@
+.section-italic {
+  font-family: $text-italic;
+  font-weight: 400;
+  font-size: 24px;
+  color: $main-text-color;
+  line-height: 1.5;
+
+  &::after {
+    content: '';
+    display: block;
+    position: relative;
+    width: 60px;
+    height: 3px;
+    background-color: $after-title;
+    margin: 40px auto 46px;
+  }
+}
+
+.section__title {
+  font-weight: 700;
+  font-size: 30px;
+  color: $main-text-color;
+}

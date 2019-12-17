@@ -1,0 +1,22 @@
+.main-title {
+  font-weight: 700;
+  font-size: 150px;
+  line-height: 1;
+  margin: 0 auto 110px;
+  color: $main-white-color;
+}
+
+.title {
+  font-family: $main-font;
+  text-transform: uppercase;
+}
+
+.main-italic {
+  font-family: $text-italic;
+  font-weight: 400;
+  font-size: 72px;
+  color: $main-white-color;
+  margin: 0 auto;
+  padding: 0 90px;
+  margin-bottom: 40px;
+}

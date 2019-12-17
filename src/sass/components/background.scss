@@ -1,0 +1,19 @@
+.background-image {
+  background-image: linear-gradient(
+      rgba(243, 129, 129, 0.9) 0%,
+      rgba(243, 213, 106, 0.9) 100%
+    ),
+    url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 54px;
+  background-size: cover;
+
+  @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        rgba(243, 129, 129, 0.9) 0%,
+        rgba(243, 213, 106, 0.9) 100%
+      ),
+      url(../images/background@2x.jpg);
+  }
+}

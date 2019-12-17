@@ -1,0 +1,46 @@
+.footer-wrapper {
+  min-height: 62px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-text {
+  font-family: $main-font;
+  font-size: 14px;
+  font-weight: 400;
+  color: $second-title;
+  font-style: normal;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: $after-title;
+  font-style: normal;
+  display: inline-block;
+}
+
+.e-mail {
+  width: 230px;
+  height: 40px;
+  font-family: $second-font;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 15px;
+  border: solid 1px $section-line-after;
+  padding: 12px;
+}
+
+.button-submit {
+  width: 150px;
+  height: 40px;
+  background: $svg-service-color;
+  color: $main-white-color;
+  text-align: center;
+  font-size: 14px;
+  border: 1px solid $svg-service-color;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: $main-font;
+  font-weight: 700;
+}
